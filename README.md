@@ -1,7 +1,3 @@
-# Register Karo
-
-Register Karo is a platform that provides reliable and secure services for users seeking professional assistance with registration and other related services. The platform is designed with ease of use in mind, offering a seamless experience across multiple devices.
-
 ## Features
 
 - **Responsive Design**: The platform is fully responsive and works well on various screen sizes, from mobile devices to desktop.
