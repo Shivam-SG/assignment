@@ -60,31 +60,49 @@ const blogs = [
 const App = () => {
   return (
     <div className="p-8">
+      {/* Section Title */}
       <div>
         <h2 className="text-sm text-[#EB8D15] text-center uppercase">
-          EXPLORE OUR BLOGS
+          Explore Our Blogs
         </h2>
         <h2 className="text-3xl font-bold text-black text-center mt-5">
           Accelerate Digital Transformation
         </h2>
       </div>
+
+      {/* Blog Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
         {blogs.map((blog, index) => (
           <div
             key={index}
-            className="border rounded-lg shadow-sm overflow-hidden"
+            className="border rounded-lg shadow-sm overflow-hidden bg-white"
           >
-            <img
-              src={blog.image}
-              alt={blog.title}
-              className="w-full h-60 object-cover"
-            />
+            {/* Responsive Image */}
+            <picture>
+              <source
+                srcSet={`${blog.image}?w=300 300w, ${blog.image}?w=600 600w, ${blog.image}?w=900 900w`}
+                sizes="(max-width: 640px) 100vw, 
+                       (max-width: 768px) 50vw, 
+                       33vw"
+                type="image/jpeg"
+              />
+              <img
+                src={blog.image}
+                alt={blog.title}
+                className="w-full h-60 object-cover"
+                loading="lazy"
+              />
+            </picture>
+
+            {/* Blog Content */}
             <div className="p-4">
               <p className="text-sm text-gray-500">
                 {blog.author} • {blog.date}
               </p>
               <h3 className="font-semibold text-lg mt-2">{blog.title}</h3>
               <p className="text-sm text-gray-600 mt-2">{blog.description}</p>
+
+              {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-4">
                 {blog.tags.map((tag, idx) => (
                   <span
@@ -99,9 +117,11 @@ const App = () => {
           </div>
         ))}
       </div>
+
+      {/* Button */}
       <div className="text-center mt-8">
         <button className="bg-[#1C4670] text-white px-4 py-2 rounded-lg hover:bg-[#3b638b]">
-          Show more blogs
+          Show More Blogs
         </button>
       </div>
     </div>
