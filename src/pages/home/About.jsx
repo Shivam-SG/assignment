@@ -41,7 +41,7 @@ const About = () => {
         </div>
 
         <div className="absolute hidden md:block right-0 bottom-0">
-            <img alt="" src="/about/dot.png"/>
+            <img alt="" src="/about/dot.png" loading="lazy" />
         </div>
       </div>
     </div>
