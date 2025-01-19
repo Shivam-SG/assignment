@@ -16,7 +16,7 @@ const Navbar = () => {
         <div>
           <img
             src="/logo.png"
-            loading="lazy" 
+            
             alt="Company Logo"
             className="w-[8rem] sm:w-[10rem]"
           />

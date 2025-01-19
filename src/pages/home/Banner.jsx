@@ -19,14 +19,11 @@ const Banner = () => {
             <IoStar className="text-yellow-400 text-xl" />
             <h2 className="text-lg sm:text-xl">Google rating</h2>
             <div className="flex gap-1">
-              {Array(5)
-                .fill("")
-                .map((_, index) => (
-                  <IoStar
-                    key={index}
-                    className="bg-yellow-400 text-white p-[0.9px]"
-                  />
-                ))}
+              <IoStar className="bg-yellow-400 text-white p-[0.9px]" />
+              <IoStar className="bg-yellow-400 text-white p-[0.9px]" />
+              <IoStar className="bg-yellow-400 text-white p-[0.9px]" />
+              <IoStar className="bg-yellow-400 text-white p-[0.9px]" />
+              <IoStar className="bg-yellow-400 text-white p-[0.9px]" />
             </div>
           </div>
 
@@ -40,9 +37,9 @@ const Banner = () => {
 
           <p className="text-base sm:text-lg text-[#4F4F4F]">
             An online business compliance platform that helps entrepreneurs and
-            other individuals with various{" "}
-            <span className="text-[#585757] font-semibold">registrations</span>,{" "}
-            <span className="text-[#585757] font-semibold">tax filings</span>,
+            other individuals with various,{" "}
+            <span className="text-[#585757] font-semibold">registrations</span>,
+            <span className="text-[#585757] font-semibold"> tax filings</span>,
             and other{" "}
             <span className="text-[#585757] font-semibold">legal matters</span>.
           </p>
@@ -54,36 +51,29 @@ const Banner = () => {
                 <h2 className="bg-gradient-to-br from-[#FFA229] to-[#1C4670] text-xl sm:text-2xl font-bold text-transparent bg-clip-text">
                   4.5+
                 </h2>
+
                 <p className="text-sm sm:text-lg">Customer Rating</p>
               </div>
             </div>
 
             <div className="flex items-center gap-6">
-              <img
-                src="/connect.svg"
-                className="w-8 sm:w-10"
-                alt="Clients icon"
-                loading="lazy"
-              />
+              <img src="/connect.svg" className="w-8 sm:w-10" />
               <div>
                 <h2 className="bg-gradient-to-br from-[#FFA229] to-[#1C4670] text-xl sm:text-2xl font-bold text-transparent bg-clip-text">
                   20,000+
                 </h2>
+
                 <p className="text-sm sm:text-lg">Clients</p>
               </div>
             </div>
 
             <div className="flex items-center gap-6">
-              <img
-                src="/handshake.svg"
-                className="w-8 sm:w-10"
-                alt="Financial stability icon"
-                loading="lazy"
-              />
+              <img src="/handshake.svg" className="w-8 sm:w-10" />
               <div>
                 <h2 className="bg-gradient-to-br from-[#FFA229] to-[#1C4670] text-xl sm:text-2xl font-bold text-transparent bg-clip-text">
                   99.8%
                 </h2>
+
                 <p className="text-sm sm:text-lg">Financial Stability</p>
               </div>
             </div>
@@ -95,18 +85,13 @@ const Banner = () => {
             </button>
 
             <div className="flex items-center gap-4">
-              <img
-                src="/play.svg"
-                alt="Play video icon"
-                className="w-8 sm:w-10"
-                loading="lazy"
-              />
-              <h2 className="font-semibold text-sm sm:text-lg">
-                See how it works
-              </h2>
+              <img src="/play.svg" alt="frome" className="w-8 sm:w-10" />
+              <h2 className="font-semibold text-sm sm:text-lg">See how it works</h2>
             </div>
           </div>
         </div>
+
+        
       </div>
     </div>
   );

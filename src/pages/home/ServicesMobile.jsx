@@ -16,13 +16,13 @@ const ServicesMobile = () => {
         <div className="mt-20">
           <h2 className="text-white">Get the App</h2>
           <div className="flex mt-4">
-            <img src="/mobile/1.png" alt="" loading="lazy"  className="w-40 h-20 md:w-70 md:h-20" />
-            <img src="/mobile/2.png" alt="" loading="lazy"  className="w-40 h-20 md:w-70 md:h-20" />
+            <img src="/mobile/1.png" alt="" className="w-40 h-20 md:w-70 md:h-20" />
+            <img src="/mobile/2.png" alt="" className="w-40 h-20 md:w-70 md:h-20" />
           </div>
         </div>
       </div>
       <div className="relative">
-        <img src="/mobile/mobile.png" loading="lazy"  alt="" className="absolute w-[70rem] -top-40"/>
+        <img src="/mobile/mobile.png" alt="" className="absolute w-[70rem] -top-40"/>
       </div>
     </div>
   );

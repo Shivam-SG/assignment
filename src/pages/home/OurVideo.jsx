@@ -46,7 +46,7 @@ const OurVideo = () => {
         </div>
 
         <div className="flex items-center justify-center">
-          <img src="/ourVideo/3.png" alt="" loading="lazy"  className="rounded-xl md:h-[25rem]" />
+          <img src="/ourVideo/3.png" alt="" className="rounded-xl md:h-[25rem]" />
         </div>
       </div>
     </div>

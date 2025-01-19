@@ -74,7 +74,7 @@ export default function TestimonialCarousel() {
           {testimonials.slice(currentIndex, currentIndex + 3).map((testimonial, index) => (
             <div key={index} className="w-[300px] sm:w-[400px] bg-white text-black p-6 rounded-lg shadow-md">
               <div className="flex justify-between">
-                <img src="/comma.svg" alt="" loading="lazy" />
+                <img src="/comma.svg" alt="" />
                 <div className="flex">
                   {/* Star Ratings */}
                   {Array.from({ length: 5 }, (_, index) => (
@@ -95,7 +95,6 @@ export default function TestimonialCarousel() {
               <div className="flex items-center gap-4 mb-4">
                 <img
                   src={testimonial.image}
-                  loading="lazy" 
                   alt={testimonial.name}
                   className="w-12 h-12 rounded-full object-cover"
                 />
