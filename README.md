@@ -4,7 +4,7 @@
 - **User-Friendly Interface**: With a clean and intuitive layout, users can easily navigate through the platform and access the features they need.
 - **Secure Services**: All user data is handled with the highest level of confidentiality and security.
 - **Testimonials**: Users can view real customer reviews to make informed decisions.
-- **Why Choose Us**: Learn about the unique features that set Register Karo apart from other services.
+- **Why Choose Us**: Learn about the unique features that set apart from other services.
 
 ## Technologies Used
 
