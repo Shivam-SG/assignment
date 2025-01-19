@@ -37,11 +37,11 @@ const About = () => {
         </div>
 
         <div className="absolute hidden md:block right-0 -top-9">
-            <img src="/about/Vector.svg" className="w-10"/>
+            <img src="/about/Vector.svg" alt="" className="w-10"/>
         </div>
 
         <div className="absolute hidden md:block right-0 bottom-0">
-            <img src="/about/dot.png"/>
+            <img alt="" src="/about/dot.png"/>
         </div>
       </div>
     </div>

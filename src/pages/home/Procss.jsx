@@ -11,19 +11,19 @@ const Procss = () => {
       </div>
       <div className="flex items-center gap-6">
         <div className="bg-[#27AE60] rounded-full p-4">
-          <img src="/process/2.svg" />
+          <img src="/process/2.svg" alt=''/>
         </div>
         <h2 className="text-lg font-bold">Make Online Payment</h2>
       </div>
       <div className="flex items-center gap-6">
         <div className="bg-[#F2994A] rounded-full p-4">
-          <img src="/process/3.svg" />
+          <img src="/process/3.svg" alt=''/>
         </div>
         <h2 className="text-lg font-bold">Executive will Process Application</h2>
       </div>
       <div className="flex items-center gap-6">
         <div className="bg-[#828282] rounded-full p-4">
-          <img src="/process/4.svg" />
+          <img src="/process/4.svg" alt=''/>
         </div>
         <h2 className="text-lg font-bold">Get Confirm Mail</h2>
       </div>

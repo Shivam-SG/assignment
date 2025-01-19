@@ -14,7 +14,11 @@ const Navbar = () => {
       <div className="h-[72px] px-4 sm:px-20 py-5 flex justify-between items-center border-b border-gray-200">
         {/* Logo */}
         <div>
-          <img src="/logo.png" alt="Company Logo" className="w-[8rem] sm:w-[10rem]" />
+          <img
+            src="/logo.png"
+            alt="Company Logo"
+            className="w-[8rem] sm:w-[10rem]"
+          />
         </div>
 
         {/* Desktop Menu */}
@@ -46,7 +50,11 @@ const Navbar = () => {
 
         {/* Mobile Menu Toggle Button */}
         <div className="sm:hidden flex items-center">
-          <button onClick={toggleMenu} className="text-2xl">
+          <button
+            onClick={toggleMenu}
+            className="text-2xl"
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          >
             {isMenuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
@@ -74,7 +82,7 @@ const Navbar = () => {
           </ul>
 
           <div className="flex justify-between mt-4">
-            <HiOutlineMagnifyingGlass className="text-xl hover:text-gray-500 cursor-pointer" />
+            <HiOutlineMagnifyingGlass className="text-xl hover:text-gray-500 cursor-pointer" aria-label="Search" />
             <button className="bg-[#FFA229] text-white px-6 rounded-lg py-3">
               Talk An Expert
             </button>

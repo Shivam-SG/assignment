@@ -18,7 +18,7 @@ const OurVideo = () => {
 
           <div className="mt-10 space-y-4">
             <div className="flex gap-4">
-              <img src="/ourVideo/1.svg" />
+              <img src="/ourVideo/1.svg" alt=''/>
               <div>
                 <h2 className="text-xl text-white font-bold">
                   Explore ideas together
@@ -31,7 +31,7 @@ const OurVideo = () => {
             </div>
 
             <div className="flex gap-4">
-              <img src="/ourVideo/2.svg" />
+              <img src="/ourVideo/2.svg" alt=''/>
               <div>
                 <h2 className="text-xl text-white font-bold">
                   Bring those ideas to life

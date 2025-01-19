@@ -21,17 +21,17 @@ const NewsLetter = () => {
 
       <div className="flex flex-col md:flex-row md:items-center md:justify-center mt-10 gap-4">
         <div className="flex gap-4">
-          <img src="/tick.svg" />
+          <img src="/tick.svg" alt=''/>
           <h2 className="text-white">Instant results</h2>
         </div>
 
         <div className="flex gap-4">
-          <img src="/tick.svg" />
+          <img src="/tick.svg" alt=''/>
           <h2 className="text-white">User-friendly interface</h2>
         </div>
 
         <div className="flex gap-4">
-          <img src="/tick.svg" />
+          <img src="/tick.svg" alt=''/>
           <h2 className="text-white">Personalized customization</h2>
         </div>
       </div>
